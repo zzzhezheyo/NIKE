@@ -1,0 +1,70 @@
+@import "./component/style.scss";
+@import "./component/header.scss";
+@import "./component/footer.scss";
+
+
+.create{
+	width:480px;
+	height: 530px;
+	background: #fff;
+	position:relative;
+	border-radius:5px;
+	margin: 25px auto;
+	text-align: center;
+}
+.form{
+	width:384px;
+	height:436px;
+	position: absolute;
+	left: 0;
+	right: 0;
+	top: 0;
+	bottom: 0;
+	margin: auto;
+	/*border:1px solid red;*/
+	h1{
+		font-size: 28px;
+		margin: 30px 0;
+	}
+	input{
+		border:1px solid #e5e5e5;
+		width:356px;
+		height: 40px;
+		border-radius:2px;
+		margin-bottom: 15px;
+		padding-left: 20px;
+	}	
+	button{
+		width: 376px;
+		height: 40px;
+		background: #000;
+		color: #fff;
+		border:none;
+		border-radius: 2px;
+		margin-bottom: 24px;
+	}
+	p{
+		font-size: 12px;
+		color: #666;
+		margin-bottom:20px;
+	}
+	a{font-size:12px;color: #000;}
+}
+.forget{
+	width:376px;
+	height:30px;
+	span{
+		float:left;
+		color:#666;
+		font-size:12px;
+	}
+	input{
+		width:15px;
+		height:15px;
+	}
+	a{
+		float:right;
+		color:#666;
+		font-size:12px;
+	}
+}

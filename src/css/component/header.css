@@ -1,0 +1,86 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+ul li{list-style: none;}
+ul li a{text-decoration: none;}
+html,body{
+	width: 100%;
+}
+.inner .top{
+	height: 38px;
+	width: 1263px;
+	margin:0 auto; 
+	border-bottom: 1px solid #e5e5e5;
+	font-size: 12px;
+}
+.inner .top a{
+	color: #8d8d8d;
+}
+.inner .top .tleft li{
+	float: left;
+	padding:0 33px;
+	border-right:1px solid #e5e5e5;
+	line-height: 38px;	
+}
+.inner .top .tright{
+	float: right;
+	margin-right: 10px;
+	line-height: 38px;
+}
+.inner .top .tright li{
+	float: left;
+	padding-right: 24px;
+	height: 38px;
+}
+.inner .top .tright li:nth-last-child a{
+	width: 14px;
+	height: 10px;
+	display: block;
+	background-image: url(../imgs/cn.png);
+}
+.inner .bottom{
+	border-bottom: 1px solid #e5e5e5;
+	height: 68px;
+/*	display: flex;*/
+/* 	width: 100%; */
+}
+.inner .bottom .bottom-wrap{
+	width: 1263px;
+	margin:0 auto; 
+	border:1px solid red;
+	height: 68px;
+}
+.inner .bottom .bottom-wrap .logo{
+	width: 116px;
+	height: 68px;
+	border: 1px solid red;
+	float: left;
+}
+.inner .bottom .bottom-wrap ul{
+	width: 644px;
+	float: left;
+	height: 68px;
+	padding-left: 280px;
+}
+.inner .bottom .bottom-wrap ul li{
+	float: left;
+	padding:0 20px ;
+	line-height: 68px;
+	font-size: 14px;
+	color: #000;
+}
+.inner .bottom .bottom-wrap ul li a{
+	color: #000000;
+}
+.inner .bottom-wrap .search{
+	line-height: 68px;
+	float: left;
+}
+.inner .bottom-wrap .search input{
+	width: 164px;
+	padding-left:30px ;
+	height: 40px;
+	border: 1px solid #E5E5E5;
+	color: #777777;
+}

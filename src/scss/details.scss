@@ -1,0 +1,133 @@
+@import "./component/style.scss";
+@import "./component/header.scss";
+@import "./component/footer.scss";
+
+*{
+	margin:0;
+	padding:0;
+}
+ul li{list-style:none;}
+ul li a{text-decoration: none;}
+.nav-title{
+	width:100%;
+	height:60px;
+	border-top:1px solid #e5e5e5;
+	border-bottom:1px solid #e5e5e5;
+	background:#f7f7f7;
+}
+.detail{
+	width:1180px;
+	min-height:1180px;
+	margin:0 auto;
+	.left{
+		width:700px;
+		height:780px;
+		float:left;
+		//border:1px solid red;
+		margin:40px auto;
+		.top{
+			width: 700px;
+		    height: 300px;
+		    
+		}
+		.four{
+		    margin:20px 0;
+			width:700px;
+			height:100px;
+			ul{
+				width:700px;
+				height:100px;
+				display:flex;
+				justify-content: space-between;
+				li{
+					//border:1px solid red;
+					width:300px;
+					height:100px;
+					overflow:hidden;
+				}
+			}
+		}
+	}
+	.right{
+		margin:40px 0;
+		float:right;
+		width:390px;
+		min-height:780px;
+		h3,h4{
+			width:390px;
+			font-size:14px;
+			float:left;
+			line-height:24px;
+			font-weight:normal;
+			margin-bottom:18px;
+			span{float:right;}
+			img{dialpay:none;}
+			.title{width:200px;height:24px;float:left;}
+			.price{width:100px;height:24px;float:right;}
+		}
+		h3{font-size:20px;}
+		.nike{font-size:18px;line-height:30px;}
+		.size ul{
+			width:390px;
+			display:flex;
+			justify-content: flex-start;
+			flex-wrap: wrap;
+			li{
+				width: 71px;
+			    height: 36px;
+			    text-align:center;
+			    padding-top:10px;
+			    border: 1px solid #ebebeb;
+			    border-radius: 5px;
+			    margin-right: 5px;
+			    margin-bottom: 5px;
+			    a{color:#000;}
+			}
+		}
+
+		.add{
+			button{
+				width:390px;
+				height:50px;
+				border-radius:3px;
+				background:#000;
+				color:#fff;
+				font-size:16px;
+				text-align:center;
+				margin:40px auto;
+				border:none;
+			}
+			p{
+				line-height:30px;
+				font-size:14px;
+			}
+			
+			.sport{
+				margin:40px auto;
+			}
+		}
+		.title{
+			height:80px;
+			border-top:1px solid #ebebeb;
+			//border-bottom:1px solid #ebebeb;
+			width:390px;
+			h2{font-size:20px;float:left;margin-top:25px;}
+			img{float:right;margin-top:30px;}
+		}
+
+		.title-talk{
+			height:60px;
+			border-top:1px solid #ebebeb;
+			width:390px;
+			padding-top:20px;
+			img{width:30px;height:25px;float:left;margin-right:10px;}
+			a{color:#000;}
+		}
+
+		.ind{
+			font-size:14px;
+			line-height:24px;
+			margin-top:12px;
+		}	
+	}
+}

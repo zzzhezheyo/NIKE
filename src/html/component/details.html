@@ -1,0 +1,27 @@
+<ul>
+	<script type="text/html" id="detail-template">
+		
+		{{each list item i}}
+		
+		<li>
+			<div class="top">
+				<a href="javascript:;"><img src="{{ item.img }}"></a>
+				<!-- <a href="javascript:;"><img src="{{ item.img }}"></a> -->
+				<!-- <a href="javascript:;"><img src="{{ item.img }}"></a> -->
+			</div>
+			<div class="four">
+				<ul>
+					<li><img src="{{ item.img }}" alt=""></li>
+					<li><img src="{{ item.img }}" alt=""></li>
+					<!-- 
+					<li><img src="{{ item.img }}" alt=""></li> -->
+					<!-- <li><img src="{{ item.img }}" alt=""></li>
+					<li><img src="{{ item.img }}" alt=""></li> -->
+				</ul>
+			</div>
+			
+		</li>
+		{{/each}}
+		
+	</script>
+</ul>

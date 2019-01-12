@@ -1,0 +1,90 @@
+@import "./component/style.scss";
+@import "./component/header.scss";
+@import "./component/footer.scss";
+
+*{
+	margin:0;
+	padding:0;
+}
+ul li{list-style:none;}
+ul li a{text-decoration: none;}
+
+.cart{
+	width:1000px;
+	min-height:1000px;
+	margin:40px auto;
+	.left{
+		width:675px;
+		min-height:800px;
+		//border:1px solid red;
+		float:left;
+		.warn{
+			width:675px;
+			height:75px;
+			background:#eee;
+			border-radius:5px;
+			p{line-height:20px;font-size:12px; padding: 15px 20px;color: #666;}
+		}
+		.join{
+			width:675px;
+			height:160px;
+			background:#eee;
+			border-radius:5px;
+			margin:20px 0;
+			span a{font-size:20px;color:#fa5400;margin-left:260px;}
+			p{line-height:20px;font-size:12px;
+			padding: 15px 20px;color: #666;}
+		}
+		.shop{
+			.tableT{
+				width:675px;
+				height:50px;
+				background:#eee;
+				h4{font-size:20px;font-weight:normal;margin-left:20px;line-height:50px;}
+				border-radius:2px;
+			}
+			table{
+				border-collapse:collapse;
+				width:675px;
+				th,td{text-align:center;width:135px;border:1px solid #eee;height:40px;font-size:16px;line-height:40px;}
+				.num{margin: 5px;
+				    border: 1px solid #ccc;
+				    padding: 5px;}
+				a{color:#000;}    
+			}
+
+		}
+	}
+
+	.right{
+		width:302px;
+		float:right;
+		.count{
+			width:300px;
+			height:360px;
+			border-radius:5px;
+			background:#191919;
+			dt{height:80px;font-size:18px;color:#fff;line-height:80px;padding-left:20px;}
+			dd{height:60px;border-top:1px solid #666;line-height:60px;
+			padding-left:20px;color:#fff;
+				button{
+				    width: 260px;
+				    height: 45px;
+				    color:#fff;
+				    margin-top:20px;
+				    background:#fa5400;
+				    border:none;
+				    border-radius:5px;
+				}
+			}
+		}
+	}
+}
+
+.like{
+	width:1180px;
+	height:300px;
+	margin:0 auto;
+	border:1px solid red;
+	h2{text-align:center;}
+}
