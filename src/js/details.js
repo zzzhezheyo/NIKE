@@ -27,7 +27,7 @@ require(["./requirejs.config"], () => {
 			 	// $("li",$(".large")).css('background-color','red');
 			 	if(target1.className = "large"){
 			 		size=target1.innerHTML;
-			 		
+			 		target1.style.color = "gray";
 			 	}
 
 			 })
@@ -45,6 +45,7 @@ require(["./requirejs.config"], () => {
 			 		//获取事件源
 			 		
 					var target = e.target||e.srcElement;
+
 					var obj = {
 						id : id,
 						/*picture:picture,*/
@@ -63,6 +64,9 @@ require(["./requirejs.config"], () => {
 					}
 					console.log(arr);
 					$.cookie("cart",JSON.stringify(arr),{ path : '/'});
+					if(confirm("已加入购物车，是否跳转购物车？")){
+						window.location.href="/html/cart.html";
+					}
 				}
 
 			 })
